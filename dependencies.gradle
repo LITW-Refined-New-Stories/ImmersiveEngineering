@@ -38,20 +38,21 @@ dependencies {
     api("com.github.GTNewHorizons:NotEnoughItems:2.5.21-GTNH:dev")
     api('com.github.GTNewHorizons:CodeChickenLib:1.2.1:dev')
     api('com.github.GTNewHorizons:CodeChickenCore:1.2.1:dev')
-    compileOnly("com.github.GTNewHorizons:inventory-tweaks:1.6.2:api") { transitive = false }
-    compileOnly("com.github.GTNewHorizons:Railcraft:9.15.5:api") { transitive = false }
-    compileOnly('com.github.GTNewHorizons:OpenComputers:1.10.6-GTNH:api') {transitive = false}
-    compileOnly("com.github.GTNewHorizons:waila:1.7.1:dev")
-    compileOnly("com.github.GTNewHorizons:ForestryMC:4.8.4:dev") { transitive = false }
-    compileOnly('com.github.GTNewHorizons:Botania:1.10.10-GTNH:dev') { transitive = false }
-    compileOnly('com.github.GTNewHorizons:GT5-Unofficial:5.09.45.76:dev') { transitive = false }
-    compileOnly("thaumcraft:Thaumcraft:1.7.10-4.2.3.5:dev") { transitive = false }
-    compileOnly("net.industrial-craft:industrialcraft-2:2.2.828-experimental:dev")
-    compileOnly(project.files("libs/MineFactoryReloaded-2.8.1-pilz2-api.jar"))
-	compileOnly('curse.maven:witchery-69673:2234410') { transitive = false }
-	compileOnly('curse.maven:computercraft-67504:2269339') { transitive = false }
-	compileOnly('curse.maven:crafttweaker-239197:2838720') { transitive = false }
-	compileOnly('curse.maven:hydraulicraft-223036:2279482') { transitive = false }
-	compileOnly('curse.maven:aquatweaks-231659:2243845') { transitive = false }
-	compileOnly('curse.maven:ee3-65509:2305022') { transitive = false }
+    compileOnlyApi("com.github.GTNewHorizons:inventory-tweaks:1.6.2:api") { transitive = false }
+    compileOnlyApi("com.github.GTNewHorizons:Railcraft:9.15.5:api") { transitive = false }
+    compileOnlyApi('com.github.GTNewHorizons:OpenComputers:1.10.6-GTNH:api') {transitive = false}
+    compileOnlyApi("com.github.GTNewHorizons:waila:1.7.1:dev")
+    compileOnlyApi("com.github.GTNewHorizons:ForestryMC:4.8.4:dev") { transitive = false }
+    compileOnlyApi('com.github.GTNewHorizons:Botania:1.10.10-GTNH:dev') { transitive = false }
+    compileOnlyApi('com.github.GTNewHorizons:GT5-Unofficial:5.09.45.76:dev') { transitive = false }
+    compileOnlyApi("thaumcraft:Thaumcraft:1.7.10-4.2.3.5:dev") { transitive = false }
+    compileOnlyApi("net.industrial-craft:industrialcraft-2:2.2.828-experimental:dev")
+    implementation(project.files("libs/MineFactoryReloaded-2.8.1-pilz2-api.jar"))
+    compileOnlyApi(project.files("libs/Et_Futurum_Requiem-2.6.0-SNAPSHOT-7e6ce58+nomixin-dev.jar"))
+	compileOnlyApi('curse.maven:witchery-69673:2234410') { transitive = false }
+	compileOnlyApi('curse.maven:computercraft-67504:2269339') { transitive = false }
+	compileOnlyApi('curse.maven:crafttweaker-239197:2838720') { transitive = false }
+	compileOnlyApi('curse.maven:hydraulicraft-223036:2279482') { transitive = false }
+	compileOnlyApi('curse.maven:aquatweaks-231659:2243845') { transitive = false }
+	compileOnlyApi('curse.maven:ee3-65509:2305022') { transitive = false }
 }

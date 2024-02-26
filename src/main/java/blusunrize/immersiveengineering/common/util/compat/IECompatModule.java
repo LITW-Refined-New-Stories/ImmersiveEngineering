@@ -53,6 +53,7 @@ public abstract class IECompatModule {
         moduleClasses.put("Avaritia", AvaritiaHelper.class);
         moduleClasses.put("ComputerCraft", ComputercraftHelper.class);
         moduleClasses.put("OpenComputers", OCHelper.class);
+        moduleClasses.put("etfuturum", EFRHelper.class);
     }
 
     public static void doModulesPreInit() {
