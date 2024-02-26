@@ -1,16 +1,21 @@
-[
 {
-  "modid": "ImmersiveEngineering",
-  "name": "Immersive Engineering",
-  "description": "",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["BluSunrize","Damien A.W. Hazard"],
-  "credits": "TTFTCUTS for the catenary rendering code",
-  "logoFile": "assets/immersiveengineering/logo.png",
-  "screenshots": [],
-  "dependencies": []
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "An example mod for Minecraft 1.7.10 with Forge focused on a stable setup.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://github.com/LITW-Refined-New-Stories/ImmersiveEngineering",
+		"updateUrl": "",
+		"authorList": ["Pilzinsel64", "BluSunrize", "Damien A.W. Hazard"],
+		"credits": "TTFTCUTS for the catenary rendering code",
+		"logoFile": "assets/immersiveengineering/logo.png",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
 }
-]
