@@ -1,14 +1,13 @@
 package blusunrize.immersiveengineering.common.util.compat;
 
 import blusunrize.immersiveengineering.common.IEContent;
-import ganymedes01.etfuturum.api.DeepslateOreRegistry;
 import ganymedes01.etfuturum.ModBlocks;
+import ganymedes01.etfuturum.api.DeepslateOreRegistry;
 
 public class EFRHelper extends IECompatModule {
 
     @Override
-    public void preInit() {
-    }
+    public void preInit() {}
 
     @Override
     public void init() {
@@ -21,6 +20,5 @@ public class EFRHelper extends IECompatModule {
     }
 
     @Override
-    public void postInit() {
-    }
+    public void postInit() {}
 }
